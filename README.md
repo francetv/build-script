@@ -2,21 +2,21 @@
 
 This script is use to pre-compilate the project before deploying to production environnement. You must create a target repository with all vendor commited.
 
-It is mainly use for Symfony 2 project. It can be adapted for any project. 
+It is mainly use for Symfony 2 project. It can be adapted for any project.
 
 ## How to use
 
 Copy build.sh file in bin/ directory.
 
-Create a repository to host all source code with vendor. Example: api-deploy
+Create a repository to host all source code with vendor. Example: my-project-deploy
 
-Create develop and master branch in build repository (api-deploy).
+Create develop and master branch in build repository (my-project-deploy).
 
 Modify setting part in build.sh file.
 
 ```
-REPOSITORY=api
-REPOSITORY_BUILD=api-deploy
+REPOSITORY=my-project
+REPOSITORY_BUILD=my-project-deploy
 ORGANISATION=francetv
 GIT_HOST=github.com
 ```
