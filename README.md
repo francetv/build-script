@@ -34,3 +34,6 @@ Then, execute the script ```bin/build.sh```
 * Synchronize current source file with build repository via rsync
 * Create new commit and pushing code
 * Create tag if exist
+
+---------------------------------------
+This project is part of [https://gitlab.ftven.net/team-infini/zoom-public](francetv zoom open source projects) (iOS, Android and Angular)
