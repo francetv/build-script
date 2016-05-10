@@ -1,5 +1,7 @@
 # Build script
 
+This project is part of [francetv zoom open source projects](https://github.com/francetv/zoom-public) (iOS, Android and Angular)
+
 This script is use to pre-compilate the project before deploying to production environnement. You must create a target repository with all vendor commited.
 
 It is mainly use for Symfony 2 project. It can be adapted for any project.
@@ -34,6 +36,3 @@ Then, execute the script ```bin/build.sh```
 * Synchronize current source file with build repository via rsync
 * Create new commit and pushing code
 * Create tag if exist
-
----------------------------------------
-This project is part of [francetv zoom open source projects](https://gitlab.ftven.net/team-infini/zoom-public) (iOS, Android and Angular)
